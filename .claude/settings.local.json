@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir:*)",
+      "Bash(npm install:*)",
+      "Bash(npm run dev:*)",
+      "Bash(npx shadcn@latest add:*)",
+      "Bash(npm run build:*)",
+      "Bash(npx vercel:*)",
+      "Bash(npm run lint)",
+      "WebFetch(domain:localhost)",
+      "Bash(curl:*)",
+      "Bash(rg:*)",
+      "Bash(for file in \"src\\app\\tax-lien-help\\page.tsx\" \"src\\app\\irs-taking-my-house-nyc\\page.tsx\" \"src\\app\\offer-in-compromise-help\\page.tsx\")",
+      "Bash(do echo \"=== $file ===\")",
+      "Bash(done)",
+      "Bash(for file in \"src\\app\\emergency-tax-attorney-nyc\\page.tsx\" \"src\\app\\letter-1058-help-nyc\\page.tsx\" \"src\\app\\irs-wage-garnishment-stop\\page.tsx\")",
+      "Bash(find:*)",
+      "Bash(git add:*)",
+      "Bash(rm:*)"
+    ],
+    "deny": []
+  }
+}
