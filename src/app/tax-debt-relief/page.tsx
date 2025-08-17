@@ -103,7 +103,7 @@ export default function TaxDebtReliefPage() {
                   <TrendingDown className="mr-2 h-5 w-5" />
                   Free Debt Analysis
                 </Button>
-                <Button size="xl" variant="outline" className="border-white/30 text-white hover:bg-white/10">
+                <Button size="xl" variant="destructive" className="bg-destructive text-destructive-foreground hover:bg-destructive/90 border-2 border-white">
                   Calculate Savings
                 </Button>
               </div>
@@ -369,7 +369,7 @@ export default function TaxDebtReliefPage() {
                 <Phone className="mr-2 h-5 w-5" />
                 Call (212) TAX-DEBT
               </Button>
-              <Button size="xl" variant="outline" className="border-white/30 text-white hover:bg-white/10">
+              <Button size="xl" variant="destructive" className="bg-destructive text-destructive-foreground hover:bg-destructive/90 border-2 border-white">
                 <Calculator className="mr-2 h-5 w-5" />
                 Free Debt Calculator
               </Button>

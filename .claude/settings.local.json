@@ -17,7 +17,10 @@
       "Bash(for file in \"src\\app\\emergency-tax-attorney-nyc\\page.tsx\" \"src\\app\\letter-1058-help-nyc\\page.tsx\" \"src\\app\\irs-wage-garnishment-stop\\page.tsx\")",
       "Bash(find:*)",
       "Bash(git add:*)",
-      "Bash(rm:*)"
+      "Bash(rm:*)",
+      "Bash(git remote add:*)",
+      "Bash(git branch:*)",
+      "Bash(git push:*)"
     ],
     "deny": []
   }

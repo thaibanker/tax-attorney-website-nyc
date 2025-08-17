@@ -99,7 +99,7 @@ export default function BusinessServicesPage() {
                   <Building2 className="mr-2 h-5 w-5" />
                   Business Tax Consultation
                 </Button>
-                <Button size="xl" variant="outline" className="border-white/30 text-white hover:bg-white/10">
+                <Button size="xl" variant="destructive" className="bg-destructive text-destructive-foreground hover:bg-destructive/90 border-2 border-white">
                   Emergency Business Help
                 </Button>
               </div>

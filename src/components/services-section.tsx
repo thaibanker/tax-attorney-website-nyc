@@ -1,14 +1,16 @@
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+"use client"
+
 import { Badge } from "@/components/ui/badge"
-import { 
-  FileText, 
-  AlertTriangle, 
-  DollarSign, 
-  Scale, 
-  CreditCard, 
-  Heart,
-  Calculator,
-  ShieldCheck
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+import {
+    AlertTriangle,
+    Calculator,
+    CreditCard,
+    DollarSign,
+    FileText,
+    Heart,
+    Scale,
+    ShieldCheck
 } from "lucide-react"
 
 const services = [
@@ -72,7 +74,10 @@ const services = [
 
 export function ServicesSection() {
   return (
-    <section className="py-16 lg:py-24 bg-secondary/30">
+    <section 
+      id="services-section" 
+      className="py-16 lg:py-24 bg-secondary/30 scroll-mt-20"
+    >
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl lg:text-4xl font-bold text-primary mb-4">

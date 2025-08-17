@@ -218,7 +218,7 @@ export default function Page2StopWageGarnishmentTodayPage() {
                   <Phone className="mr-2 h-5 w-5" />
                   EMERGENCY: +1 929 416 3020
                 </Button>
-                <Button size="lg" variant="outline" className="border-white/30 text-white hover:bg-white/10">
+                <Button size="lg" variant="destructive" className="bg-destructive text-destructive-foreground hover:bg-destructive/90 border-2 border-white">
                   <MessageCircle className="mr-2 h-5 w-5" />
                   Live Chat Available
                 </Button>
@@ -649,7 +649,7 @@ export default function Page2StopWageGarnishmentTodayPage() {
                 <Phone className="mr-2 h-5 w-5" />
                 Call Emergency Hotline
               </Button>
-              <Button size="lg" variant="outline" className="border-white/30 text-white hover:bg-white/10">
+              <Button size="lg" variant="destructive" className="bg-destructive text-destructive-foreground hover:bg-destructive/90 border-2 border-white">
                 <MessageCircle className="mr-2 h-5 w-5" />
                 Start Live Chat
               </Button>

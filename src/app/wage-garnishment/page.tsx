@@ -104,7 +104,7 @@ export default function WageGarnishmentPage() {
                   <Phone className="mr-2 h-5 w-5" />
                   EMERGENCY HOTLINE: (212) STOP-NOW
                 </Button>
-                <Button size="xl" variant="outline" className="border-white/30 text-white hover:bg-white/10">
+                <Button size="xl" variant="destructive" className="bg-destructive text-destructive-foreground hover:bg-destructive/90 border-2 border-white">
                   <Shield className="mr-2 h-5 w-5" />
                   Immediate Protection
                 </Button>
@@ -183,7 +183,7 @@ export default function WageGarnishmentPage() {
                     <Phone className="mr-2 h-5 w-5" />
                     Call Emergency Line Now
                   </Button>
-                  <Button size="lg" variant="outline">
+                  <Button size="lg" variant="destructive" className="bg-destructive text-destructive-foreground hover:bg-destructive/90 border-2 border-white">
                     Text for Immediate Help
                   </Button>
                 </div>
@@ -349,7 +349,7 @@ export default function WageGarnishmentPage() {
                 <Phone className="mr-2 h-5 w-5" />
                 Emergency Hotline: (212) GARNISH
               </Button>
-              <Button size="xl" variant="outline" className="border-white/30 text-white hover:bg-white/10">
+              <Button size="xl" variant="destructive" className="bg-destructive text-destructive-foreground hover:bg-destructive/90 border-2 border-white">
                 <Clock className="mr-2 h-5 w-5" />
                 24/7 Emergency Text Line
               </Button>

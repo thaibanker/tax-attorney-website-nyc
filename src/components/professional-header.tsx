@@ -1,8 +1,18 @@
-import { Badge } from "@/components/ui/badge"
-import { Button } from "@/components/ui/button"
-import { Clock, Mail, MapPin, Phone } from "lucide-react"
+"use client"
+
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import { Clock, Mail, MapPin, Phone } from "lucide-react";
 
 export function ProfessionalHeader() {
+  const handleLearnMore = () => {
+    window.location.href = '/about-us';
+  };
+
+  const handleCallNow = () => {
+    window.location.href = 'tel:+19294163020';
+  };
+
   return (
     <header className="bg-white border-b border-border">
       {/* Top Bar */}
@@ -19,7 +29,7 @@ export function ProfessionalHeader() {
                 <span>info@strategictaxnynj.com</span>
               </div>
             </div>
-            <div className="flex items-center gap-4">
+            <div className="flex gap-4">
               <Badge variant="secondary" className="bg-accent text-accent-foreground">
                 Free Consultation
               </Badge>
@@ -55,10 +65,20 @@ export function ProfessionalHeader() {
               <span>Serving NY, NJ & Tri-State Area</span>
             </div>
             <div className="flex gap-3">
-              <Button variant="outline" size="sm">
+              <Button 
+                variant="outline" 
+                size="sm"
+                onClick={handleLearnMore}
+                aria-label="Learn more about our company and team"
+              >
                 Learn More
               </Button>
-              <Button size="sm" className="bg-success hover:bg-success/90">
+              <Button 
+                size="sm" 
+                className="bg-success hover:bg-success/90"
+                onClick={handleCallNow}
+                aria-label="Call our office now"
+              >
                 Call Now
               </Button>
             </div>
