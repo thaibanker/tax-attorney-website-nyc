@@ -38,21 +38,21 @@ export function ProfessionalFooter() {
             <h3 className="text-lg font-semibold">Our Services</h3>
             <nav className="space-y-2">
               {[
-                "IRS Audit Defense",
-                "Tax Debt Relief", 
-                "Wage Garnishment Relief",
-                "Tax Liens & Levies",
-                "Innocent Spouse Relief",
-                "Unfiled Tax Returns",
-                "Business Tax Issues",
-                "Tax Planning"
+                { name: "IRS Audit Defense", href: "/irs-audit-defense" },
+                { name: "Tax Debt Relief", href: "/tax-debt-relief" },
+                { name: "Wage Garnishment Relief", href: "/wage-garnishment" },
+                { name: "Tax Liens & Levies", href: "/tax-liens-levies" },
+                { name: "Innocent Spouse Relief", href: "/innocent-spouse-relief" },
+                { name: "Unfiled Tax Returns", href: "/unfiled-tax-returns" },
+                { name: "Business Tax Issues", href: "/business-services" },
+                { name: "Tax Planning", href: "/tax-planning" }
               ].map((service, index) => (
                 <a 
                   key={index}
-                  href="#" 
+                  href={service.href}
                   className="block text-sm text-primary-foreground/80 hover:text-accent transition-colors"
                 >
-                  {service}
+                  {service.name}
                 </a>
               ))}
             </nav>
