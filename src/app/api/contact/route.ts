@@ -33,30 +33,7 @@ export async function POST(request: NextRequest) {
       emergency: '🚨 EMERGENCY - IMMEDIATE ATTENTION REQUIRED 🚨'
     }[formData.urgency] || formData.urgency
 
-    // Create email content
-    const emailContent = `
-New Free Consultation Request - ${urgencyDisplay}
-
-CONTACT INFORMATION:
-Name: ${formData.name}
-Email: ${formData.email}
-Phone: ${formData.phone}
-${formData.company ? `Company: ${formData.company}` : ''}
-
-TAX ISSUE DETAILS:
-Issue Type: ${formData.taxIssue}
-Urgency Level: ${urgencyDisplay}
-
-MESSAGE:
-${formData.message}
-
-SUBMISSION DETAILS:
-Source: ${formData.source}
-Timestamp: ${formData.timestamp}
-IP Address: ${request.ip || 'Unknown'}
-
-${formData.urgency === 'emergency' ? '⚠️ THIS IS AN EMERGENCY REQUEST - CONTACT IMMEDIATELY ⚠️' : ''}
-`
+    // Email content is used in the HTML template below
 
     // Send email using Resend
     const resend = new Resend(process.env.RESEND_API_KEY || 'demo-key')
