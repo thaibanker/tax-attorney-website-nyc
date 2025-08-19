@@ -10,7 +10,6 @@ import {
   Phone,
   Clock,
   TrendingUp,
-  Calculator,
   Target,
   PieChart,
   CheckCircle2,
@@ -23,7 +22,8 @@ import {
   Lightbulb,
   Calendar,
   FileText,
-  Briefcase
+  Briefcase,
+  Calculator
 } from "lucide-react";
 
 export const metadata: Metadata = {

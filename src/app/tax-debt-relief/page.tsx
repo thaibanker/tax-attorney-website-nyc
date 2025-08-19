@@ -2,17 +2,18 @@ import type { Metadata } from "next";
 import { ProfessionalHeader } from "@/components/professional-header";
 import { ProfessionalFooter } from "@/components/professional-footer";
 import { Button } from "@/components/ui/button";
+import { CalculatorButton } from "@/components/calculator-button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { 
   DollarSign, 
   TrendingDown, 
-  Calculator, 
   FileText, 
   CheckCircle, 
   Phone,
   MapPin,
-  Users
+  Users,
+  Calculator
 } from "lucide-react";
 
 export const metadata: Metadata = {
@@ -369,10 +370,12 @@ export default function TaxDebtReliefPage() {
                 <Phone className="mr-2 h-5 w-5" />
                 Call (212) TAX-DEBT
               </Button>
-              <Button size="xl" variant="destructive" className="bg-destructive text-destructive-foreground hover:bg-destructive/90 border-2 border-white">
-                <Calculator className="mr-2 h-5 w-5" />
+              <CalculatorButton 
+                calculatorUrl="/tax-debt-calculator"
+                className="bg-destructive text-destructive-foreground hover:bg-destructive/90 border-2 border-white"
+              >
                 Free Debt Calculator
-              </Button>
+              </CalculatorButton>
             </div>
           </div>
         </section>

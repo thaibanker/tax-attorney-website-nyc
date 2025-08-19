@@ -1,0 +1,191 @@
+[
+  {
+    "source_page": "/",
+    "selector": "button:nth-of-type(1)",
+    "text": "Learn More",
+    "accessible_name": "Learn more about our company and team",
+    "final_url": "NO_CHANGE",
+    "status_or_event": "NO_NAVIGATION",
+    "notes": "No visible effect from button click"
+  },
+  {
+    "source_page": "/emergency-tax-attorney",
+    "selector": "button:nth-of-type(1)",
+    "text": "Learn More",
+    "accessible_name": "Learn more about our company and team",
+    "final_url": "NO_CHANGE",
+    "status_or_event": "NO_NAVIGATION",
+    "notes": "No visible effect from button click"
+  },
+  {
+    "source_page": "/irs-audit-help",
+    "selector": "button:nth-of-type(1)",
+    "text": "Learn More",
+    "accessible_name": "Learn more about our company and team",
+    "final_url": "NO_CHANGE",
+    "status_or_event": "NO_NAVIGATION",
+    "notes": "No visible effect from button click"
+  },
+  {
+    "source_page": "/tax-debt-relief",
+    "selector": "button:nth-of-type(1)",
+    "text": "Learn More",
+    "accessible_name": "Learn more about our company and team",
+    "final_url": "NO_CHANGE",
+    "status_or_event": "NO_NAVIGATION",
+    "notes": "No visible effect from button click"
+  },
+  {
+    "source_page": "/wage-garnishment",
+    "selector": "button:nth-of-type(1)",
+    "text": "Learn More",
+    "accessible_name": "Learn more about our company and team",
+    "final_url": "NO_CHANGE",
+    "status_or_event": "NO_NAVIGATION",
+    "notes": "No visible effect from button click"
+  },
+  {
+    "source_page": "/tax-liens-levies",
+    "selector": "button:nth-of-type(1)",
+    "text": "Learn More",
+    "accessible_name": "Learn more about our company and team",
+    "final_url": "NO_CHANGE",
+    "status_or_event": "NO_NAVIGATION",
+    "notes": "No visible effect from button click"
+  },
+  {
+    "source_page": "/business-services",
+    "selector": "button:nth-of-type(1)",
+    "text": "Learn More",
+    "accessible_name": "Learn more about our company and team",
+    "final_url": "NO_CHANGE",
+    "status_or_event": "NO_NAVIGATION",
+    "notes": "No visible effect from button click"
+  },
+  {
+    "source_page": "/about-us",
+    "selector": "button:nth-of-type(1)",
+    "text": "Learn More",
+    "accessible_name": "Learn more about our company and team",
+    "final_url": "NO_CHANGE",
+    "status_or_event": "NO_NAVIGATION",
+    "notes": "No visible effect from button click"
+  },
+  {
+    "source_page": "/contact",
+    "selector": "button:nth-of-type(1)",
+    "text": "Learn More",
+    "accessible_name": "Learn more about our company and team",
+    "final_url": "NO_CHANGE",
+    "status_or_event": "NO_NAVIGATION",
+    "notes": "No visible effect from button click"
+  },
+  {
+    "source_page": "/irs-audit-defense",
+    "selector": "button:nth-of-type(1)",
+    "text": "Learn More",
+    "accessible_name": "Learn more about our company and team",
+    "final_url": "NO_CHANGE",
+    "status_or_event": "NO_NAVIGATION",
+    "notes": "No visible effect from button click"
+  },
+  {
+    "source_page": "/irs-fresh-start-program",
+    "selector": "button:nth-of-type(1)",
+    "text": "Learn More",
+    "accessible_name": "Learn more about our company and team",
+    "final_url": "NO_CHANGE",
+    "status_or_event": "NO_NAVIGATION",
+    "notes": "No visible effect from button click"
+  },
+  {
+    "source_page": "/penalty-abatement",
+    "selector": "button:nth-of-type(1)",
+    "text": "Learn More",
+    "accessible_name": "Learn more about our company and team",
+    "final_url": "NO_CHANGE",
+    "status_or_event": "NO_NAVIGATION",
+    "notes": "No visible effect from button click"
+  },
+  {
+    "source_page": "/currently-not-collectible",
+    "selector": "button:nth-of-type(1)",
+    "text": "Learn More",
+    "accessible_name": "Learn more about our company and team",
+    "final_url": "NO_CHANGE",
+    "status_or_event": "NO_NAVIGATION",
+    "notes": "No visible effect from button click"
+  },
+  {
+    "source_page": "/innocent-spouse-relief",
+    "selector": "button:nth-of-type(1)",
+    "text": "Learn More",
+    "accessible_name": "Learn more about our company and team",
+    "final_url": "NO_CHANGE",
+    "status_or_event": "NO_NAVIGATION",
+    "notes": "No visible effect from button click"
+  },
+  {
+    "source_page": "/unfiled-tax-returns",
+    "selector": "button:nth-of-type(1)",
+    "text": "Learn More",
+    "accessible_name": "Learn more about our company and team",
+    "final_url": "NO_CHANGE",
+    "status_or_event": "NO_NAVIGATION",
+    "notes": "No visible effect from button click"
+  },
+  {
+    "source_page": "/trust-fund-recovery-penalty",
+    "selector": "button:nth-of-type(1)",
+    "text": "Learn More",
+    "accessible_name": "Learn more about our company and team",
+    "final_url": "NO_CHANGE",
+    "status_or_event": "NO_NAVIGATION",
+    "notes": "No visible effect from button click"
+  },
+  {
+    "source_page": "/criminal-tax-defense",
+    "selector": "button:nth-of-type(1)",
+    "text": "Learn More",
+    "accessible_name": "Learn more about our company and team",
+    "final_url": "NO_CHANGE",
+    "status_or_event": "NO_NAVIGATION",
+    "notes": "No visible effect from button click"
+  },
+  {
+    "source_page": "/tax-planning",
+    "selector": "button:nth-of-type(1)",
+    "text": "Learn More",
+    "accessible_name": "Learn more about our company and team",
+    "final_url": "NO_CHANGE",
+    "status_or_event": "NO_NAVIGATION",
+    "notes": "No visible effect from button click"
+  },
+  {
+    "source_page": "/privacy-policy",
+    "selector": "button:nth-of-type(1)",
+    "text": "Learn More",
+    "accessible_name": "Learn more about our company and team",
+    "final_url": "NO_CHANGE",
+    "status_or_event": "NO_NAVIGATION",
+    "notes": "No visible effect from button click"
+  },
+  {
+    "source_page": "/terms-of-service",
+    "selector": "button:nth-of-type(1)",
+    "text": "Learn More",
+    "accessible_name": "Learn more about our company and team",
+    "final_url": "NO_CHANGE",
+    "status_or_event": "NO_NAVIGATION",
+    "notes": "No visible effect from button click"
+  },
+  {
+    "source_page": "/disclaimer",
+    "selector": "button:nth-of-type(1)",
+    "text": "Learn More",
+    "accessible_name": "Learn more about our company and team",
+    "final_url": "NO_CHANGE",
+    "status_or_event": "NO_NAVIGATION",
+    "notes": "No visible effect from button click"
+  }
+]

@@ -1,7 +1,9 @@
 "use client"
 
+import { useState } from "react"
 import { Badge } from "@/components/ui/badge"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+import { ContactFormModal } from "./contact-form-modal"
 import {
     AlertTriangle,
     Calculator,
@@ -73,11 +75,18 @@ const services = [
 ]
 
 export function ServicesSection() {
+  const [isModalOpen, setIsModalOpen] = useState(false)
+
   return (
-    <section 
-      id="services-section" 
-      className="py-16 lg:py-24 bg-secondary/30 scroll-mt-20"
-    >
+    <>
+      <ContactFormModal 
+        isOpen={isModalOpen} 
+        onClose={() => setIsModalOpen(false)} 
+      />
+      <section 
+        id="services-section" 
+        className="py-16 lg:py-24 bg-secondary/30 scroll-mt-20"
+      >
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl lg:text-4xl font-bold text-primary mb-4">
@@ -128,15 +137,22 @@ export function ServicesSection() {
             Don&apos;t see your specific tax issue? We handle all types of tax problems.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="bg-primary text-primary-foreground hover:bg-primary/90 px-6 py-3 rounded-md font-medium transition-colors">
+            <button 
+              onClick={() => setIsModalOpen(true)}
+              className="bg-primary text-primary-foreground hover:bg-primary/90 px-6 py-3 rounded-md font-medium transition-colors"
+            >
               Schedule Free Consultation
             </button>
-            <button className="border border-primary text-primary hover:bg-primary/5 px-6 py-3 rounded-md font-medium transition-colors">
+            <button 
+              onClick={() => window.location.href = '/services'}
+              className="border border-primary text-primary hover:bg-primary/5 px-6 py-3 rounded-md font-medium transition-colors"
+            >
               View All Services
             </button>
           </div>
         </div>
       </div>
-    </section>
+      </section>
+    </>
   )
 }

@@ -1,10 +1,21 @@
+"use client"
+
+import { useState } from "react"
 import { Badge } from "@/components/ui/badge"
 import { Separator } from "@/components/ui/separator"
+import { ContactFormModal } from "./contact-form-modal"
 import { Award, Clock, Mail, MapPin, Phone, Shield, Users } from "lucide-react"
 
 export function ProfessionalFooter() {
+  const [isModalOpen, setIsModalOpen] = useState(false)
+
   return (
-    <footer className="bg-primary text-primary-foreground">
+    <>
+      <ContactFormModal 
+        isOpen={isModalOpen} 
+        onClose={() => setIsModalOpen(false)} 
+      />
+      <footer className="bg-primary text-primary-foreground">
       {/* Main Footer Content */}
       <div className="container mx-auto px-4 py-12">
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
@@ -40,10 +51,15 @@ export function ProfessionalFooter() {
               {[
                 { name: "IRS Audit Defense", href: "/irs-audit-defense" },
                 { name: "Tax Debt Relief", href: "/tax-debt-relief" },
+                { name: "Fresh Start Program", href: "/irs-fresh-start-program" },
+                { name: "Penalty Abatement", href: "/penalty-abatement" },
+                { name: "Currently Not Collectible", href: "/currently-not-collectible" },
                 { name: "Wage Garnishment Relief", href: "/wage-garnishment" },
                 { name: "Tax Liens & Levies", href: "/tax-liens-levies" },
                 { name: "Innocent Spouse Relief", href: "/innocent-spouse-relief" },
                 { name: "Unfiled Tax Returns", href: "/unfiled-tax-returns" },
+                { name: "Trust Fund Recovery Penalty", href: "/trust-fund-recovery-penalty" },
+                { name: "Criminal Tax Defense", href: "/criminal-tax-defense" },
                 { name: "Business Tax Issues", href: "/business-services" },
                 { name: "Tax Planning", href: "/tax-planning" }
               ].map((service, index) => (
@@ -120,7 +136,10 @@ export function ProfessionalFooter() {
               </div>
             </div>
             <div className="pt-2">
-              <button className="bg-accent hover:bg-accent/90 text-white px-4 py-2 rounded-md text-sm font-medium transition-colors w-full">
+              <button 
+                onClick={() => setIsModalOpen(true)}
+                className="bg-accent hover:bg-accent/90 text-white px-4 py-2 rounded-md text-sm font-medium transition-colors w-full"
+              >
                 Get Free Consultation
               </button>
             </div>
@@ -137,18 +156,19 @@ export function ProfessionalFooter() {
             © 2025 Tax Representation Services. All rights reserved.
           </div>
           <div className="flex gap-6">
-            <a href="#" className="text-primary-foreground/80 hover:text-accent transition-colors">
+            <a href="/privacy-policy" className="text-primary-foreground/80 hover:text-accent transition-colors">
               Privacy Policy
             </a>
-            <a href="#" className="text-primary-foreground/80 hover:text-accent transition-colors">
+            <a href="/terms-of-service" className="text-primary-foreground/80 hover:text-accent transition-colors">
               Terms of Service
             </a>
-            <a href="#" className="text-primary-foreground/80 hover:text-accent transition-colors">
+            <a href="/disclaimer" className="text-primary-foreground/80 hover:text-accent transition-colors">
               Disclaimer
             </a>
           </div>
         </div>
       </div>
-    </footer>
+      </footer>
+    </>
   )
 }
